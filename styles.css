@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #767676;
+  background-image: https://id.images.search.yahoo.com/images/view;_ylt=AwrKAiNlAHxmNt0yCTzNQwx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzc0NDFmMTY3NmIxMjNiMWU0NGNkZTFhNjIxYTE2NDExBGdwb3MDMTA0BGl0A2Jpbmc-?back=https%3A%2F%2Fid.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dlatar%2Bbelakang%2Bawan%2BHD%26ei%3DUTF-8%26type%3DE210ID91215G0%26fr%3Dmcafee%26fr2%3Dp%253As%252Cv%253Ai%252Cm%253Asb-top%26nost%3D1%26tab%3Dorganic%26ri%3D104&w=1920&h=1279&imgurl=get.wallhere.com%2Fphoto%2F1920x1279-px-clouds-nature-sunlight-1032391.jpg&rurl=https%3A%2F%2Fwallhere.com%2Fid%2Fwallpaper%2F1032391&size=240.6KB&p=latar+belakang+awan+HD&oid=7441f1676b123b1e44cde1a621a16411&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&fr=mcafee&tt=Wallpaper+%3A+1920x1279+px%2C+awan-awan%2C+alam%2C+sinar+matahari+1920x1279+...&b=61&ni=125&no=104&ts=&tab=organic&sigr=j12KRs7hHXML&sigb=BclJktE._Tbl&sigi=y0FSPj4OmodV&sigt=xir5HFm1HOVt&.crumb=b7UIuFlCDWO&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&type=E210ID91215G0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 25%;
+  padding: 10px;
+  background-color: #506a02;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+li button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+li button:hover {
+  background-color: #c82333;
+}
